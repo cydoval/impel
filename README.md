@@ -1,8 +1,6 @@
-impel Alpha
-============
+bootstrap-caes
+==============
 
+Bootstrap theme with CAES styles - using SASS, cause its better then css.
 
-Active by default are:
-- SASS
-- Normalize.css
 

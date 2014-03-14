@@ -6,8 +6,14 @@
 
 
 // Typography
-	$primary-sans:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
-	$primary-serif:			"lexia",georgia, serif;
+	$futura:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
+	$sans-serif:		Helvetica Neue, Helvetica Std, Helvetica, Univers, Arial, sans-serif;
+	$serif:				Georgia, Berkeley, serif;
+	$monospace:			Monaco, "Courier New", Courier, monospace;
+
+	$basesize: 16;
+	$px: 1 / $basesize + 0rem;
+	$line-height-base: 26;
 
 	// [Compass] Vertical rhythm set up
 	// Change these values to whatever you want for your proj
@@ -17,36 +23,45 @@
 	// $relative-font-sizing:			true;
 
 // Colors
-	// The impel standard colors
-	$primary-color:		#4dacde; // blue accent
-	$secondary-color:	#333333; // gray for main fonts
-	$tertiary-color:	#7e7a7a; // lighter gray for fonts
-	$secondary-blue:	#377B9E; // accent
-	
-	$gray-font:			#6f6f6f; // main section p
-	$error-text:		#de4d4d; // error text
-	$darkest:			#1e1e1e; // darkest
+	// The UC Davis standard colors
+	$ucdavis-blue: 		#dcadfe;
+	$ucdavis-gold:		#c99700;
 
-	$light-gray:		#c9c9c9; // arrows, vertical border on homepage
-	$middle-border:		#dcdcdd; // border for status bar
-	$dark-border: 		#c2c3c4; // border for top and footer and sections
-	$light-border:		#e0e1e2; // border for li's
+	// Supplemental bright color palette for UC Davis
+	$unitrans-red: 		#ba0c2f;
+	$western-redbud:	#c6007e;
+	$california-poppy:	#ed8800;
+	$golden-lupine:		#ffcd00;
+	$sunny-grass:		#78be20;
+	$sky-blue:			#00b5e2;
+	$recpool-blue:		#008eaa;
+	$wine-grape:		#642667;
 
-	$light-font:		#cdcdcd; // font in the search bars
+	// Supplemental neutral color palette for UC Davis
+	$mu-brick:			#c26e60;
+	$harthall-stucco: 	#e6a65d;
+	$sage-green:		#9caf88;
+	$evergreen:			#00573f;
+	$wintersky-gray:	#5b7f95;
+	$cenwalk-gray:		#b1b3b3;
+	$cork-oak:			#aca39a;
+	$shingle-brown:		#4f2c1d;
 
-	$content-box-color:	#f8f8f8; // content boxs
-	$background-color:	#ececec; // background
+	$dark-gray:			#333433; // p,li color in main content
+	$middle-gray: 		#515151; // p,li color in portlet/sidebar
+	$light-gray:		#9b9b9b; // summary, discreet
 
-	$large-font-size:		23px; // headers
-	$standard-font-size:	18px; // main list items
-	$smaller-font-size: 	15px; // other content fonts
+	$background-color:	#ebebeb; // background
+	$boxcolor:			#ffffff; //	content boxs
+	$borders:			#dddddd; // border color
 
 
 
 
-@mixin inner-content {
-	max-width:1200px;
-	width:90%;
-	margin:0 auto;
+
+@mixin transformers {
+	transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: all;
+    transition-timing-function: ease;
 }
-
