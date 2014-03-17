@@ -48,56 +48,6 @@ img {
 
 body, html { font-size: 100%;   padding: 0; margin: 0;}
 
-/* Reset */
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #333;
-    background: #f9f9f9;
-    font-size: 0.9em;
-    overflow-x: hidden;
-
-}
-
-a {
-  color: #999;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #000;
-}
-
-.container > header {
-  padding: 1em 1.875em;
-  margin-bottom: 2em;
-  background: #f5f5f5;
-  position: relative;
-}
-
-.inner {
-  max-width: 65em;
-  width: 100%;
-  margin: 0 auto;
-}
 
 .container > header h1 {
   font-size: 2.125em;
@@ -210,7 +160,7 @@ a:hover {
 }
 
 .ac-device {
-  background: url(../images/iPhone.png) no-repeat;
+  background: url(../media/iPhone.png) no-repeat;
   width: 288px;
   height: 611px;
   margin: 0 auto;
