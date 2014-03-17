@@ -6,9 +6,9 @@
 
 
 // Typography
-	$futura:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
-	$sans-serif:		Helvetica Neue, Helvetica Std, Helvetica, Univers, Arial, sans-serif;
-	$serif:				Georgia, Berkeley, serif;
+	$primary-sans:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
+	$primary-serif:			"lexia",georgia, serif;
+
 	$monospace:			Monaco, "Courier New", Courier, monospace;
 
 	$basesize: 16;
@@ -23,37 +23,30 @@
 	// $relative-font-sizing:			true;
 
 // Colors
-	// The UC Davis standard colors
-	$ucdavis-blue: 		#dcadfe;
-	$ucdavis-gold:		#c99700;
+	// The impel standard colors
 
-	// Supplemental bright color palette for UC Davis
-	$unitrans-red: 		#ba0c2f;
-	$western-redbud:	#c6007e;
-	$california-poppy:	#ed8800;
-	$golden-lupine:		#ffcd00;
-	$sunny-grass:		#78be20;
-	$sky-blue:			#00b5e2;
-	$recpool-blue:		#008eaa;
-	$wine-grape:		#642667;
+	$impel-blue:		#4dacde;
+	$impel-d-blue:		#377B9E;
+	$impel-purple:		#478bf5; // accent, a's
+	$impel-green:		#1cbbb4; // a hover
+	
+	$primary-font:		#333333; // main p
+	$secondary-font:	#5c5b5a; // lighter gray
+	$tertiary-font:		#7e7a7a; // lighter gray for fonts
+	$quarternary-font:	#aeaeae; // lightest font i.e. footers
 
-	// Supplemental neutral color palette for UC Davis
-	$mu-brick:			#c26e60;
-	$harthall-stucco: 	#e6a65d;
-	$sage-green:		#9caf88;
-	$evergreen:			#00573f;
-	$wintersky-gray:	#5b7f95;
-	$cenwalk-gray:		#b1b3b3;
-	$cork-oak:			#aca39a;
-	$shingle-brown:		#4f2c1d;
+	$lukes-red:			#AB2F18; // 
+	$lukes-hover:		#851f0c; // 
 
-	$dark-gray:			#333433; // p,li color in main content
-	$middle-gray: 		#515151; // p,li color in portlet/sidebar
-	$light-gray:		#9b9b9b; // summary, discreet
+	$borders:			#E0E1E2; // arrows, vertical border on homepage
+	$dark-border: 		#c2c3c4; // border for top and footer and sections
 
-	$background-color:	#ebebeb; // background
-	$boxcolor:			#ffffff; //	content boxs
-	$borders:			#dddddd; // border color
+	$content-box-color:	#fff; // content boxs
+	$background-color:	#f2f2f2; // background
+
+	$large-font-size:		23px; // headers
+	$standard-font-size:	18px; // main list items
+	$smaller-font-size: 	15px; // other content fonts
 
 
 

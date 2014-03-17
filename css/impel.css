@@ -1,0 +1,90 @@
+/* apply a natural box layout model to all elements */
+/* line 2, ../sass/_border-box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../sass/_foundation.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 14, ../sass/_foundation.scss */
+body {
+  font-size: 16px;
+}
+
+/* line 18, ../sass/_foundation.scss */
+.container {
+  padding: 1.6rem;
+}
+/* line 20, ../sass/_foundation.scss */
+.container .jumbotron {
+  border-radius: 0px;
+}
+
+/* line 24, ../sass/_foundation.scss */
+.navbar .container {
+  padding: 0;
+}
+
+/* line 33, ../sass/_foundation.scss */
+.navbar-brand {
+  float: none;
+}
+
+/* line 36, ../sass/_foundation.scss */
+a.navbar-brand {
+  width: 10%;
+}
+
+/* line 2, ../sass/_typography.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 6, ../sass/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #4dacde;
+  font-family: "lexia", georgia, serif;
+}
+
+/* line 10, ../sass/_typography.scss */
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* line 14, ../sass/_typography.scss */
+p {
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
+  line-height: 1.625;
+}
+
+/* line 18, ../sass/_typography.scss */
+h1, .h1 {
+  font-size: 2.25rem;
+}
+
+/* line 5, ../sass/_components.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 10, ../sass/_components.scss */
+.btn-primary {
+  background-color: #4dacde;
+  background-image: none;
+  border: 1px solid #4dacde;
+  border-radius: 2.5px;
+}
+
+/* line 16, ../sass/_components.scss */
+.btn-primary:hover {
+  background-color: #377b9e;
+  background-image: none;
+  border: 1px solid #377b9e;
+  border-radius: 2.5px;
+}

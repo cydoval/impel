@@ -1,231 +1,66 @@
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+/*
+Syntax error: Undefined variable: "$serif".
+        on line 8 of /Users/Cal/Documents/work/Impel/impel - git/sass/_typography.scss
+        from line 7 of /Users/Cal/Documents/work/Impel/impel - git/sass/caes.scss
 
-html {
-  font-size: 62.5%; }
-
-body {
-  font-size: 16px;
-  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif; }
-
-.container {
-  padding: 1.6rem; }
-  .container .jumbotron {
-    border-radius: 0px; }
-
-.navbar .container {
-  padding: 0; }
-
-.navbar-brand {
-  float: none; }
-
-a.navbar-brand {
-  width: 10%; }
-
-html {
-  font-size: 16px; }
-
-h1, h2, h3, h4, h5, h6 {
-  color: #dcadfe;
-  font-family: Georgia, Berkeley, serif; }
-
-h1, .h1, h2, .h2, h3, .h3 {
-  margin-top: 1rem;
-  margin-bottom: 2rem; }
-
-p {
-  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
-  line-height: 1.625; }
-
-h1, .h1 {
-  font-size: 2.25rem; }
-
-img {
-  max-width: 100%; }
-
-.navbar-default, .navbar-inverse {
-  background-image: none; }
-
-.navbar-inverse {
-  background-color: #dcadfe;
-  color: #fff; }
-
-.navbar-inverse .navbar-nav > .active > a {
-  background-image: none; }
-
-.navbar-inverse .navbar-nav > li > a {
-  color: #fff; }
-
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #c99700; }
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #d194fe; }
-
-.swatch {
-  display: block;
-  width: 80px;
-  height: 80px;
-  background: #ccc;
-  overflow: hidden;
-  clear: both; }
-
-dl {
-  display: block;
-  clear: both;
-  margin-bottom: 1em; }
-
-dt, dd {
-  float: left;
-  padding: 5px; }
-
-dt {
-  font-weight: bold;
-  font-size: .9em;
-  width: 80px;
-  text-align: right; }
-
-dd {
-  margin-left: 0; }
-
-.ucdavis-blue {
-  background: #dcadfe; }
-
-.ucdavis-gold {
-  background: #c99700; }
-
-.unitrans-red {
-  background: #ba0c2f; }
-
-.western-redbud {
-  background: #c6007e; }
-
-.california-poppy {
-  background: #ed8800; }
-
-.golden-lupine {
-  background: #ffcd00; }
-
-.sunny-grass {
-  background: #78be20; }
-
-.sky-blue {
-  background: #00b5e2; }
-
-.recpool-blue {
-  background: #008eaa; }
-
-.wine-grape {
-  background: #642667; }
-
-.mu-brick {
-  background: #c26e60; }
-
-.harthall-stucco {
-  background: #e6a65d; }
-
-.sage-green {
-  background: #9caf88; }
-
-.evergreen {
-  background: #00573f; }
-
-.wintersky-gray {
-  background: #5b7f95; }
-
-.cenwalk-gray {
-  background: #b1b3b3; }
-
-.cork-oak {
-  background: #aca39a; }
-
-.shingle-brown {
-  background: #4f2c1d; }
-
-.alert, .list-group-item:first-child, .list-group-item:last-child, .panel, .panel-title, .panel-heading, .well {
-  border-radius: 0px; }
-
-a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-  background-color: #dcaefe;
-  border: 1px solid #dcaefe; }
-
-.panel-primary {
-  border: 1px solid #dcadfe; }
-  .panel-primary .panel-heading {
-    background-color: #dcadfe;
-    border: 1px solid #dcadfe; }
-
-.btn-primary {
-  background-color: #dcadfe;
-  background-image: none;
-  border: 1px solid #dcadfe;
-  border-radius: 2.5px; }
-
-.btn-primary:hover {
-  background-color: #c99700;
-  background-image: none;
-  border: 1px solid #c99700;
-  border-radius: 2.5px; }
-
-.btn-default {
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #b1b3b3;
-  border-radius: 2.5px; }
-
-.btn-default:hover {
-  background-color: #b1b3b3;
-  background-image: none;
-  border: 1px solid #b1b3b3;
-  border-radius: 2.5px; }
-
-.btn-success {
-  background-color: #78be20;
-  background-image: none;
-  border: 1px solid #78be20;
-  border-radius: 2.5px; }
-
-.btn-success:hover {
-  background-color: #6aa81c;
-  background-image: none;
-  border: 1px solid #6aa81c;
-  border-radius: 2.5px; }
-
-.btn-info {
-  background-color: #00b5e2;
-  background-image: none;
-  border: 1px solid #00b5e2;
-  border-radius: 2.5px; }
-
-.btn-info:hover {
-  background-color: #00a1c9;
-  background-image: none;
-  border: 1px solid #00a1c9;
-  border-radius: 2.5px; }
-
-.btn-warning {
-  background-color: #ffcd00;
-  background-image: none;
-  border: 1px solid #ffcd00;
-  border-radius: 2.5px; }
-
-.btn-warning:hover {
-  background-color: #e6b900;
-  background-image: none;
-  border: 1px solid #e6b900;
-  border-radius: 2.5px; }
-
-.btn-danger {
-  background-color: #ba0c2f;
-  background-image: none;
-  border: 1px solid #ba0c2f;
-  border-radius: 2.5px; }
-
-.btn-danger:hover {
-  background-color: #a20a29;
-  background-image: none;
-  border: 1px solid #a20a29;
-  border-radius: 2.5px; }
+Backtrace:
+/Users/Cal/Documents/work/Impel/impel - git/sass/_typography.scss:8
+/Users/Cal/Documents/work/Impel/impel - git/sass/caes.scss:7
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/node.rb:40:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:315:in `_render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:44:in `block in <main>'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:58:in `call'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:58:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$serif\".\A         on line 8 of /Users/Cal/Documents/work/Impel/impel - git/sass/_typography.scss\A         from line 7 of /Users/Cal/Documents/work/Impel/impel - git/sass/caes.scss"; }
