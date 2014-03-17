@@ -1,6 +1,6 @@
-bootstrap-caes
+bootstrap-impel
 ==============
 
-Bootstrap theme with CAES styles - using SASS, cause its better then css.
+Bootstrap theme with impel styles and Sass
 
 
