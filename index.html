@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/impel.css" rel="stylesheet">
+    <script src="js/modernizr.custom.js"></script>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -45,6 +46,8 @@
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Download</a></li>
+            <li><a href="#contact">Signup</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -66,21 +69,50 @@
         <div class="valueprop_contents">
            <div class="threecolsection">
             <div class="valuecol">
-              <img src="images/myclients.png">
+              <img src="media/values.png">
               <h2>Efficiency</h2>
               <p>Saves time, improves organization, and reflects professionalism.</p>
             </div>
             <div class="valuecol">
-              <img src="images/chart.png">
+              <img src="media/chart.png">
               <h2>Tracking</h2>
               <p>Progress and goal tracking improves client engagement, client retention and distinguishes your value.</p>
             </div>
             <div class="valuecol last">
-              <img src="images/form.png">
+              <img src="media/form.png">
               <h2>Analytics</h2>
               <p>Analytics provide a powerful sales tool as well as validate each of your personalized training programs.</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="screens">
+        <div class="screens_contents">
+          <div class="main">
+        <div id="ac-wrapper" class="ac-wrapper">
+          <h2>Weatherous <span>Concept &amp; UI Design</span></h2>
+          <div class="ac-device">
+            <a href="#"><img src="media/screen1.jpg"/></a>
+            <h3 class="ac-title">Gentrify small batch umami retro vegan</h3>
+            <nav>
+              <span>&lt;</span>
+              <span>&gt;</span>
+            </nav>
+          </div>
+          <div class="ac-grid">
+            <a href="#"><img src="media/screen1.jpg"/><span>Gentrify small batch umami retro vegan</span></a>
+            <a href="#"><img src="media/screen2.jpg"/><span>Chambray squid semiotics</span></a>
+            <a href="#"><img src="media/screen3.jpg"/><span>Fashion axe blue bottle</span></a>
+            <a href="#"><img src="media/screen4.jpg"/><span>Photo booth single-origin coffee</span></a>
+            <a href="#"><img src="media/screen5.jpg"/><span>Flexitarian synth keytar blog master</span></a>
+            <a href="#"><img src="media/screen6.jpg"/><span>Next level retro flexitarian freegan</span></a>
+            <a href="#"><img src="media/screen7.jpg"/><span>Pour-over superious meggings terry</span></a>
+            <a href="#"><img src="media/screen8.jpg"/><span>Seitan william vinyl chillwave</span></a>
+          </div>
+        </div>  
+        <p>Click to toggle between single and grid view.</p>      
+      </div>
         </div>
       </div>
 
@@ -94,5 +126,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    <script src="js/appshowcase_3.js"></script>
+    <script>
+      $(function() {
+        AppShowcase.init();
+      });
+    </script>
   </body>
 </html>

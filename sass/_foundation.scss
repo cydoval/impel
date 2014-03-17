@@ -61,11 +61,18 @@
 	background-color:$impel-d-blue;
 	.valueprop_contents {
 		@include contentsection;
+		padding-top:15rem;
+		padding-bottom:15rem;
+		color:#fff;
+		text-align:center;
 		.valuecol {
 			display:inline-block;
 			width:29%;
 			margin-right:5%;
 			vertical-align:top;
+			h2 {
+				color:#fff;
+			}
 		}
 		.valuecol.last {
 			margin-right:0px;

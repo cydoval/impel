@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 /* apply a natural box layout model to all elements */
 /* line 2, ../sass/_border-box-sizing.scss */
 *, *:before, *:after {
@@ -76,15 +77,23 @@
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  color: #fff;
+  text-align: center;
 }
-/* line 64, ../sass/_foundation.scss */
+/* line 68, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol {
   display: inline-block;
   width: 29%;
   margin-right: 5%;
   vertical-align: top;
 }
-/* line 70, ../sass/_foundation.scss */
+/* line 73, ../sass/_foundation.scss */
+.valueprop .valueprop_contents .valuecol h2 {
+  color: #fff;
+}
+/* line 77, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol.last {
   margin-right: 0px;
 }
@@ -102,27 +111,28 @@ html {
 /* line 8, ../sass/_typography.scss */
 body {
   font-size: 16px;
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
 }
 
-/* line 11, ../sass/_typography.scss */
+/* line 12, ../sass/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #4dacde;
   font-family: "lexia", georgia, serif;
 }
 
-/* line 15, ../sass/_typography.scss */
+/* line 16, ../sass/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
-/* line 19, ../sass/_typography.scss */
+/* line 20, ../sass/_typography.scss */
 p {
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
   line-height: 1.625;
 }
 
-/* line 23, ../sass/_typography.scss */
+/* line 24, ../sass/_typography.scss */
 h1, .h1 {
   font-size: 2.25rem;
 }
@@ -132,7 +142,19 @@ img {
   max-width: 100%;
 }
 
-/* line 10, ../sass/_components.scss */
+/* line 9, ../sass/_components.scss */
+.navbar-inverse {
+  background-color: #fff;
+  color: #7e7a7a;
+  border-bottom: 0px;
+}
+
+/* line 15, ../sass/_components.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #4dacde;
+}
+
+/* line 20, ../sass/_components.scss */
 .btn-primary {
   background-color: #4dacde;
   background-image: none;
@@ -140,10 +162,455 @@ img {
   border-radius: 2.5px;
 }
 
-/* line 16, ../sass/_components.scss */
+/* line 26, ../sass/_components.scss */
 .btn-primary:hover {
   background-color: #377b9e;
   background-image: none;
   border: 1px solid #377b9e;
   border-radius: 2.5px;
+}
+
+/* General Demo Style */
+@font-face {
+  font-family: 'fontawesome';
+  src: url("../fonts/fontawesome.eot");
+  src: url("../fonts/fontawesome.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome.svg#fontawesome") format("svg"), url("../fonts/fontawesome.woff") format("woff"), url("../fonts/fontawesome.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../sass/_components.scss */
+body, html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset */
+/* line 54, ../sass/_components.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* line 62, ../sass/_components.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 67, ../sass/_components.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 71, ../sass/_components.scss */
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #333;
+  background: #f9f9f9;
+  font-size: 0.9em;
+  overflow-x: hidden;
+}
+
+/* line 80, ../sass/_components.scss */
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* line 85, ../sass/_components.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 89, ../sass/_components.scss */
+.container > header {
+  padding: 1em 1.875em;
+  margin-bottom: 2em;
+  background: #f5f5f5;
+  position: relative;
+}
+
+/* line 96, ../sass/_components.scss */
+.inner {
+  max-width: 65em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 102, ../sass/_components.scss */
+.container > header h1 {
+  font-size: 2.125em;
+  line-height: 1.3;
+  text-align: left;
+  font-weight: 400;
+  float: left;
+  width: 50%;
+}
+
+/* line 111, ../sass/_components.scss */
+.container > header span {
+  display: block;
+  font-weight: 300;
+  font-size: 75%;
+  color: #c0c0c0;
+  padding: 0 0 0.6em 0.1em;
+}
+
+/* line 119, ../sass/_components.scss */
+.main > p {
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #999;
+  text-align: center;
+  padding: 2em;
+}
+
+/* Header Style */
+/* line 128, ../sass/_components.scss */
+.codrops-top {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  position: relative;
+  font-size: 0.75em;
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+  line-height: 2.2;
+}
+
+/* line 138, ../sass/_components.scss */
+.codrops-top a {
+  padding: 0 1em;
+  letter-spacing: 0.1em;
+  color: #333;
+  display: inline-block;
+}
+
+/* line 145, ../sass/_components.scss */
+.codrops-top a:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+/* line 150, ../sass/_components.scss */
+.codrops-top span.right {
+  float: right;
+}
+
+/* line 154, ../sass/_components.scss */
+.codrops-top span.right a {
+  float: left;
+  display: block;
+}
+
+/* Demo Buttons Style */
+/* line 160, ../sass/_components.scss */
+.codrops-demos {
+  float: right;
+  padding-top: 1em;
+}
+
+/* line 165, ../sass/_components.scss */
+.codrops-demos a {
+  display: inline-block;
+  margin: 1em;
+  line-height: 2;
+  color: #666;
+  font-weight: 700;
+  border-bottom: 4px solid transparent;
+}
+
+/* line 174, ../sass/_components.scss */
+.codrops-demos a:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* line 180, ../sass/_components.scss */
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+/* line 185, ../sass/_components.scss */
+.ac-wrapper {
+  width: 100%;
+  position: relative;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-perspective-origin: 50% 25%;
+  -moz-perspective-origin: 50% 25%;
+  perspective-origin: 50% 25%;
+}
+
+/* line 196, ../sass/_components.scss */
+.ac-wrapper h2 {
+  top: 20%;
+  width: 50%;
+  position: absolute;
+  font-weight: 300;
+  font-size: 4em;
+  text-align: right;
+  padding: 0 180px 0 50px;
+}
+
+/* line 206, ../sass/_components.scss */
+.ac-wrapper h2 span {
+  display: block;
+  font-size: 60%;
+  color: #c0c0c0;
+}
+
+/* line 212, ../sass/_components.scss */
+.ac-device {
+  background: url(../images/iPhone.png) no-repeat;
+  width: 288px;
+  height: 611px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 226, ../sass/_components.scss */
+.ac-device a {
+  height: 440px;
+  width: 249px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 85px 0 0 20px;
+}
+
+/* line 235, ../sass/_components.scss */
+.ac-device a img {
+  display: block;
+  position: absolute;
+}
+
+/* line 240, ../sass/_components.scss */
+.ac-device h3 {
+  position: absolute;
+  font-size: 2.5em;
+  left: 100%;
+  width: 100%;
+  top: 60%;
+  margin-left: 30px;
+  font-weight: 300;
+  color: #888;
+}
+
+/* line 251, ../sass/_components.scss */
+.ac-device nav {
+  position: absolute;
+  bottom: 1em;
+  left: 100%;
+  margin-left: 2em;
+  width: 100%;
+}
+
+/* line 259, ../sass/_components.scss */
+.ac-device nav span {
+  display: block;
+  font-size: 2.8em;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+  background: #ddd;
+  line-height: 0.9;
+  padding: 0 0.08em;
+  margin: 2px;
+  float: left;
+  width: 36px;
+  text-align: center;
+}
+
+/* line 274, ../sass/_components.scss */
+.ac-grid {
+  position: absolute;
+  width: 620px;
+  left: 50%;
+  margin-left: -310px;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateZ(-350px);
+  -moz-transform: translateZ(-350px);
+  transform: translateZ(-350px);
+}
+
+/* line 295, ../sass/_components.scss */
+.ac-grid a {
+  width: 145px;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+/* line 304, ../sass/_components.scss */
+.ac-grid a img {
+  display: block;
+  width: 100%;
+}
+
+/* line 309, ../sass/_components.scss */
+.ac-grid a span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-transform: uppercase;
+  padding: 3em 1em 0;
+  z-index: 100;
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  opacity: 0;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 330, ../sass/_components.scss */
+.ac-grid a:hover span {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* line 337, ../sass/_components.scss */
+.ac-wrapper.ac-gridview .ac-device {
+  -webkit-transform: translateZ(-350px);
+  -moz-transform: translateZ(-350px);
+  transform: translateZ(-350px);
+  opacity: .6;
+}
+
+/* line 344, ../sass/_components.scss */
+.ac-wrapper.ac-gridview .ac-grid {
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  transform: translateZ(0px);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media screen and (max-width: 63.875em) {
+  /* line 353, ../sass/_components.scss */
+  .ac-wrapper {
+    font-size: 60%;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* line 359, ../sass/_components.scss */
+  .ac-device {
+    margin: 0;
+    width: 100%;
+  }
+
+  /* line 364, ../sass/_components.scss */
+  .ac-device h3 {
+    width: 50%;
+    left: 290px;
+  }
+
+  /* line 369, ../sass/_components.scss */
+  .ac-wrapper h2 {
+    left: 308px;
+    padding: 0;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  /* line 376, ../sass/_components.scss */
+  .ac-device nav {
+    left: 280px;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 39.8125em) {
+  /* line 383, ../sass/_components.scss */
+  .ac-grid {
+    width: 90%;
+    left: 5%;
+    margin-left: 0;
+    padding-top: 150px;
+  }
+
+  /* line 390, ../sass/_components.scss */
+  .ac-grid a {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 35.6875em) {
+  /* line 397, ../sass/_components.scss */
+  .ac-wrapper {
+    padding: 0 20px 100px;
+  }
+
+  /* line 401, ../sass/_components.scss */
+  .ac-wrapper h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1em;
+    top: 0;
+    left: auto;
+    position: relative;
+  }
+
+  /* line 410, ../sass/_components.scss */
+  .ac-device {
+    margin: 0 auto;
+    width: 288px;
+  }
+
+  /* line 415, ../sass/_components.scss */
+  .ac-device h3 {
+    position: relative;
+    margin: 0;
+    left: auto;
+    top: auto;
+    width: 100%;
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+  }
+
+  /* line 426, ../sass/_components.scss */
+  .ac-device nav {
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    bottom: auto;
+    margin: 0;
+    left: auto;
+  }
 }
