@@ -98,6 +98,25 @@
   margin-right: 0px;
 }
 
+/* line 82, ../sass/_foundation.scss */
+.team {
+  padding: 60px 0px 60px 0px;
+}
+/* line 84, ../sass/_foundation.scss */
+.team .team_contents {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+/* line 88, ../sass/_foundation.scss */
+.team .team_contents .profile {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 /* line 2, ../sass/_typography.scss */
 html {
   font-size: 16px;

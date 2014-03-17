@@ -79,3 +79,16 @@
 		}
 	}
 }
+.team {
+	padding:60px 0px 60px 0px;
+	.team_contents {
+		@include contentsection;
+		width:60%;
+		text-align:center;
+		.profile {
+			width:33%;
+			display:inline-block;
+			vertical-align:top;
+		}
+	}
+}
