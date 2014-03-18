@@ -79,6 +79,11 @@
 		}
 	}
 }
+.screens {
+	.screens_contents {
+		@include contentsection;
+	}
+}
 .team {
 	padding:60px 0px 60px 0px;
 	.team_contents {
