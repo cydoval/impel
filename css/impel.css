@@ -83,7 +83,7 @@ ul.nav {
 
 /* line 68, ../sass/_foundation.scss */
 .valueprop {
-  background-color: #377b9e;
+  background-color: #07557d;
 }
 /* line 70, ../sass/_foundation.scss */
 .valueprop .valueprop_contents {
@@ -192,7 +192,7 @@ h1, .h1 {
 
 /* line 30, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.blue:hover {
-  color: #377b9e;
+  color: #07557d;
 }
 
 /* line 33, ../sass/_typography.scss */
@@ -202,7 +202,7 @@ h1, .h1 {
 
 /* line 36, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.green:hover {
-  color: #377b9e;
+  color: #07557d;
 }
 
 /* line 5, ../sass/_components.scss */
@@ -232,9 +232,9 @@ img {
 
 /* line 26, ../sass/_components.scss */
 .btn-primary:hover {
-  background-color: #377b9e;
+  background-color: #07557d;
   background-image: none;
-  border: 1px solid #377b9e;
+  border: 1px solid #07557d;
   border-radius: 2.5px;
 }
 
@@ -248,9 +248,9 @@ img {
 
 /* line 38, ../sass/_components.scss */
 .btn-success:hover {
-  background-color: #377b9e;
+  background-color: #07557d;
   background-image: none;
-  border: 1px solid #377b9e;
+  border: 1px solid #07557d;
   border-radius: 2.5px;
 }
 
