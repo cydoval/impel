@@ -24,3 +24,15 @@ p {
 h1, .h1 {
 	font-size:36*$px
 }
+.navbar-inverse .navbar-nav > li > a.blue {
+	color:$impel-blue;
+}
+.navbar-inverse .navbar-nav > li > a.blue:hover {
+	color:$impel-d-blue;
+}
+.navbar-inverse .navbar-nav > li > a.green {
+	color:$impel-l-green;
+}
+.navbar-inverse .navbar-nav > li > a.green:hover {
+	color:$impel-d-blue;
+}

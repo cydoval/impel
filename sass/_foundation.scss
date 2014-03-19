@@ -9,18 +9,19 @@
 @import 'border-box-sizing';
 
 
-.container {
-	padding:1.6rem;
-	.jumbotron {
-		border-radius:0px;
+.navbar {
+	padding:1rem 0 1rem 0;
+	.navbar_contents {
+		@include contentsection;
+		a.navbar-brand {
+			padding:0px;
+			padding-top:.2rem;
+			width:100%;
+		}
 	}
 }
 .navbar .container {
 	padding:0;
-}
-.navbar-brand {
-	padding:0px;
-	padding-top:.2rem;
 }
 ul.nav {
 	float:right;
