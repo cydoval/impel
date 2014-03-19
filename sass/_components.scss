@@ -29,6 +29,18 @@ img {
   border:1px solid $impel-d-blue;
   border-radius:2.5px;
  }
+  .btn-success {
+  background-color:$impel-l-green;
+  background-image:none;
+  border:1px solid $impel-l-green;
+  border-radius:2.5px;
+ }
+ .btn-success:hover {
+  background-color:$impel-d-blue;
+  background-image:none;
+  border:1px solid $impel-d-blue;
+  border-radius:2.5px;
+ }
 // showcase
 
 
