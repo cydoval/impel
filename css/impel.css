@@ -111,18 +111,23 @@ ul.nav {
   margin-right: 0px;
 }
 
-/* line 91, ../sass/_foundation.scss */
+/* line 90, ../sass/_foundation.scss */
+.screens {
+  padding: 7.5rem 0px;
+}
+/* line 92, ../sass/_foundation.scss */
 .screens .screens_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 95, ../sass/_foundation.scss */
+/* line 96, ../sass/_foundation.scss */
 .team {
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0px;
+  background-color: #f2f2f2;
 }
-/* line 97, ../sass/_foundation.scss */
+/* line 99, ../sass/_foundation.scss */
 .team .team_contents {
   max-width: 1200px;
   width: 90%;
@@ -130,11 +135,15 @@ ul.nav {
   width: 60%;
   text-align: center;
 }
-/* line 101, ../sass/_foundation.scss */
+/* line 103, ../sass/_foundation.scss */
 .team .team_contents .profile {
   width: 33%;
   display: inline-block;
   vertical-align: top;
+}
+/* line 108, ../sass/_foundation.scss */
+.team .team_contents img {
+  border-radius: 50%;
 }
 
 /* line 2, ../sass/_typography.scss */
