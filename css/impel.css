@@ -22,6 +22,17 @@
 }
 
 /* line 21, ../sass/_foundation.scss */
+.navbar-brand {
+  padding: 0px;
+  padding-top: .2rem;
+}
+
+/* line 25, ../sass/_foundation.scss */
+ul.nav {
+  float: right;
+}
+
+/* line 28, ../sass/_foundation.scss */
 .jumbotron {
   height: auto;
   background-image: url(../media/header_background.jpg);
@@ -34,7 +45,7 @@
   background-size: cover;
   margin-bottom: 0px;
 }
-/* line 32, ../sass/_foundation.scss */
+/* line 39, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents {
   max-width: 1200px;
   width: 90%;
@@ -42,7 +53,7 @@
   color: #fff;
   padding-top: 15rem;
 }
-/* line 36, ../sass/_foundation.scss */
+/* line 43, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .halfapp {
   display: inline-block;
   width: 25%;
@@ -51,14 +62,14 @@
   margin-right: 5rem;
   margin-left: 10rem;
 }
-/* line 44, ../sass/_foundation.scss */
+/* line 51, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .jumbowords {
   display: inline-block;
   width: 49%;
   vertical-align: top;
   padding-top: 4.6rem;
 }
-/* line 50, ../sass/_foundation.scss */
+/* line 57, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents h2 {
   color: #fff;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
@@ -68,11 +79,11 @@
   margin-bottom: 1.3rem;
 }
 
-/* line 60, ../sass/_foundation.scss */
+/* line 67, ../sass/_foundation.scss */
 .valueprop {
   background-color: #377b9e;
 }
-/* line 62, ../sass/_foundation.scss */
+/* line 69, ../sass/_foundation.scss */
 .valueprop .valueprop_contents {
   max-width: 1200px;
   width: 90%;
@@ -82,34 +93,34 @@
   color: #fff;
   text-align: center;
 }
-/* line 68, ../sass/_foundation.scss */
+/* line 75, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol {
   display: inline-block;
   width: 29%;
   margin-right: 5%;
   vertical-align: top;
 }
-/* line 73, ../sass/_foundation.scss */
+/* line 80, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol h2 {
   color: #fff;
 }
-/* line 77, ../sass/_foundation.scss */
+/* line 84, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol.last {
   margin-right: 0px;
 }
 
-/* line 83, ../sass/_foundation.scss */
+/* line 90, ../sass/_foundation.scss */
 .screens .screens_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 87, ../sass/_foundation.scss */
+/* line 94, ../sass/_foundation.scss */
 .team {
   padding: 60px 0px 60px 0px;
 }
-/* line 89, ../sass/_foundation.scss */
+/* line 96, ../sass/_foundation.scss */
 .team .team_contents {
   max-width: 1200px;
   width: 90%;
@@ -117,7 +128,7 @@
   width: 60%;
   text-align: center;
 }
-/* line 93, ../sass/_foundation.scss */
+/* line 100, ../sass/_foundation.scss */
 .team .team_contents .profile {
   width: 33%;
   display: inline-block;

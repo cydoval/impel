@@ -18,6 +18,13 @@
 .navbar .container {
 	padding:0;
 }
+.navbar-brand {
+	padding:0px;
+	padding-top:.2rem;
+}
+ul.nav {
+	float:right;
+}
 .jumbotron {
 	height:auto;
 	background-image:url(../media/header_background.jpg);
