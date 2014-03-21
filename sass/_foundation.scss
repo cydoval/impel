@@ -107,6 +107,14 @@ ul.nav {
 		}
 	}
 }
+.signoff {
+	padding:6rem 0rem;
+	background-color:$primary-font;
+	.signoff_contents {
+		@include contentsection;
+		text-align:center;
+	}
+}
 .team {
 	padding:60px 0px;
 	background-color:$background-color;
@@ -133,9 +141,6 @@ ul.nav {
 		}
 		img {
 			border-radius:50%;
-		}
-		.signoff {
-			padding-bottom:4rem;
 		}
 	}
 }
