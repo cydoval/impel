@@ -119,6 +119,20 @@ ul.nav {
 			display:inline-block;
 			vertical-align:top;
 			margin-top:4rem;
+			a {
+				font-size:2rem;
+				background-color:#fff;
+				border-radius:50%;
+				a.fa-facebook {
+					padding:1rem 1.45rem;
+				}
+				a.fa-twitter {
+					padding:1.05rem 1rem;
+				}
+				a.fa-twitter {
+					padding:1.1rem 1rem;
+				}
+			}
 		}
 		img {
 			border-radius:50%;

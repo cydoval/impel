@@ -158,21 +158,39 @@ ul.nav {
   vertical-align: top;
   margin-top: 4rem;
 }
-/* line 123, ../sass/_foundation.scss */
-.team .team_contents img {
+/* line 122, ../sass/_foundation.scss */
+.team .team_contents .profile a {
+  font-size: 2rem;
+  background-color: #fff;
   border-radius: 50%;
 }
 /* line 126, ../sass/_foundation.scss */
+.team .team_contents .profile a a.fa-facebook {
+  padding: 1rem 1.45rem;
+}
+/* line 129, ../sass/_foundation.scss */
+.team .team_contents .profile a a.fa-twitter {
+  padding: 1.05rem 1rem;
+}
+/* line 132, ../sass/_foundation.scss */
+.team .team_contents .profile a a.fa-twitter {
+  padding: 1.1rem 1rem;
+}
+/* line 137, ../sass/_foundation.scss */
+.team .team_contents img {
+  border-radius: 50%;
+}
+/* line 140, ../sass/_foundation.scss */
 .team .team_contents .signoff {
   padding-bottom: 4rem;
 }
 
-/* line 131, ../sass/_foundation.scss */
+/* line 145, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 134, ../sass/_foundation.scss */
+/* line 148, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
