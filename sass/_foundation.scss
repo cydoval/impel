@@ -89,8 +89,12 @@ ul.nav {
 }
 .screens {
 	padding:7.5rem 0px;
+	background-color:$impel-blue;
 	.screens_contents {
 		@include contentsection;
+		p,h2,h3,h4, span {
+			color:#fff;
+		}
 	}
 }
 .team {
