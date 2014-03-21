@@ -156,10 +156,27 @@ ul.nav {
   width: 33%;
   display: inline-block;
   vertical-align: top;
+  margin-top: 4rem;
 }
-/* line 122, ../sass/_foundation.scss */
+/* line 123, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
+}
+/* line 126, ../sass/_foundation.scss */
+.team .team_contents .signoff {
+  padding-bottom: 4rem;
+}
+
+/* line 131, ../sass/_foundation.scss */
+.footer {
+  padding: 10px 0px;
+  background-color: #333333;
+}
+/* line 134, ../sass/_foundation.scss */
+.footer .footer_contents {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* line 2, ../sass/_typography.scss */

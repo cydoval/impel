@@ -118,9 +118,20 @@ ul.nav {
 			width:33%;
 			display:inline-block;
 			vertical-align:top;
+			margin-top:4rem;
 		}
 		img {
 			border-radius:50%;
 		}
+		.signoff {
+			padding-bottom:4rem;
+		}
+	}
+}
+.footer {
+	padding:10px 0px;
+	background-color:$primary-font;
+	.footer_contents {
+		@include contentsection;
 	}
 }
