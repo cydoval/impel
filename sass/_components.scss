@@ -46,16 +46,14 @@ img {
 input.submitbtn {
   display:inline-block;
   width:110px;
-  background-color:$impel-blue;
+  background-color:$impel-l-green;
   border: none;
   color:#fff;
-  font-size:16px;
   font-style:normal;
   padding:7px 12px;
   margin-bottom:15px;
   letter-spacing:.75px;
   text-align:center;
-  font-size:$standard-font-size;
   border-radius:0px;
   font-family:$primary-sans;
   font-weight:400;
@@ -69,7 +67,6 @@ input.forminput {
   color:$primary-font;
   background-color:transparentize(#fff, .25);
   border: none;
-  font-size:16px;
   font-style:normal;
   padding:8px 13px;
   margin-bottom:15px;
