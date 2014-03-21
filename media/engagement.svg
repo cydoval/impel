@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>engagement</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="engagement" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="2">
+            <path d="M55.6833906,75.2007547 C46.773947,73.7256604 40,66.4373585 40,57.6467925 L40,37 L78,37 L78,57.6467925 C78,66.430566 71.236105,73.7154717 62.3389472,75.1984906 L62.3389472,86.8418868 C63.3106428,87.1769811 73.4374982,95.8679245 73.4374982,95.8679245 C73.4374982,96.4939623 72.9382477,97 72.3206066,97 L45.5855745,97 C44.9679335,97 44.4686829,96.4939623 44.4686829,95.8679245 C44.4686829,95.8679245 55.0199571,86.8113208 55.6375981,86.8113208 L55.6833906,86.8113208 L55.6833906,75.2007547 L55.6833906,75.2007547 Z M77,67 C81.3909237,66.0571429 88,61.704 88,56.1222857 L88,43 L79.2137251,43 L77,67 Z M41,67 C36.6356364,66.0571429 30,61.704 30,56.1222857 L30,43 L38.7320268,43 L41,67 Z M111,59 C111,87.7186957 87.7186957,111 59,111 C30.2813043,111 7,87.7186957 7,59 C7,30.2813043 30.2813043,7 59,7 C87.7186957,7 111,30.2813043 111,59 L111,59 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
