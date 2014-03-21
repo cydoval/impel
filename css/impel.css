@@ -164,33 +164,21 @@ ul.nav {
   background-color: #fff;
   border-radius: 50%;
 }
-/* line 126, ../sass/_foundation.scss */
-.team .team_contents .profile a a.fa-facebook {
-  padding: 1rem 1.45rem;
-}
-/* line 129, ../sass/_foundation.scss */
-.team .team_contents .profile a a.fa-twitter {
-  padding: 1.05rem 1rem;
-}
-/* line 132, ../sass/_foundation.scss */
-.team .team_contents .profile a a.fa-twitter {
-  padding: 1.1rem 1rem;
-}
-/* line 137, ../sass/_foundation.scss */
+/* line 128, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
-/* line 140, ../sass/_foundation.scss */
+/* line 131, ../sass/_foundation.scss */
 .team .team_contents .signoff {
   padding-bottom: 4rem;
 }
 
-/* line 145, ../sass/_foundation.scss */
+/* line 136, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 148, ../sass/_foundation.scss */
+/* line 139, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
@@ -255,6 +243,21 @@ h1, .h1 {
 /* line 37, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.green:hover {
   color: #07557d;
+}
+
+/* line 40, ../sass/_typography.scss */
+a.fa.fa-facebook {
+  padding: 1rem 1.45rem;
+}
+
+/* line 43, ../sass/_typography.scss */
+a.fa.fa-twitter {
+  padding: 1rem 1.05rem;
+}
+
+/* line 46, ../sass/_typography.scss */
+a.fa-linkedin {
+  padding: 1rem 1.1rem;
 }
 
 /* line 5, ../sass/_components.scss */
