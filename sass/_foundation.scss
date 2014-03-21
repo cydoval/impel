@@ -47,6 +47,8 @@ ul.nav {
 	-o-background-size: cover;
 	background-size: cover;
 	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
 	.jumbotron_contents{
 		@include contentsection;
 		color:#fff;

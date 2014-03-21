@@ -25,43 +25,61 @@
 }
 @media all and (max-width: 966px) {
 	.jumbotron {
+		padding-bottom:0px;
 		.jumbotron_contents {
 			.jumbowords {
-				width:50%;
+				width:60%;
 				margin-top:0rem;
 			}
 			.halfapp {
 				width:29%;
-			}
-		}
-	}
-	
-}
-@media all and (max-width: 954px) {
-	.jumbotron {
-		padding-bottom:2.4rem;
-		.jumbotron_contents {
-			.jumbowords {
-				width:67%;
-			}
-			.halfapp {
-				margin-left:0rem;
 				margin-right:2rem;
+				margin-left:0rem;
+				margin-bottom:0px;
 			}
 		}
 	}
 	
 }
-@media all and (max-width: 831px) {
+@media all and (max-width: 807px) {
 	.jumbotron {
 		.jumbotron_contents {
 			.jumbowords {
-
-			}
-			.halfapp {
-
+				width:66%;
 			}
 		}
 	}
 	
 }
+@media all and (max-width: 767px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+				width:66%;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 737px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+				width:100%;
+				text-align:center;
+			}
+			.halfapp {
+				display:none;
+			}
+		}
+	}
+	
+}
+//form
+@media all and (max-width: 440px) {
+	input.forminput {
+		width:75%;
+	}
+	
+}
+

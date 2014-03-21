@@ -57,8 +57,10 @@ ul.nav {
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-/* line 50, ../sass/_foundation.scss */
+/* line 52, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents {
   max-width: 1200px;
   width: 90%;
@@ -66,7 +68,7 @@ ul.nav {
   color: #fff;
   padding-top: 15rem;
 }
-/* line 54, ../sass/_foundation.scss */
+/* line 56, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .halfapp {
   display: inline-block;
   width: 25%;
@@ -75,18 +77,18 @@ ul.nav {
   margin-right: 5rem;
   margin-left: 2rem;
 }
-/* line 62, ../sass/_foundation.scss */
+/* line 64, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .jumbowords {
   display: inline-block;
   width: 56%;
   vertical-align: top;
   padding-top: 4.6rem;
 }
-/* line 67, ../sass/_foundation.scss */
+/* line 69, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .jumbowords img {
   float: left;
 }
-/* line 71, ../sass/_foundation.scss */
+/* line 73, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents h2 {
   color: #fff;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
@@ -96,11 +98,11 @@ ul.nav {
   margin-bottom: 1.3rem;
 }
 
-/* line 81, ../sass/_foundation.scss */
+/* line 83, ../sass/_foundation.scss */
 .valueprop {
   background-color: #07557d;
 }
-/* line 83, ../sass/_foundation.scss */
+/* line 85, ../sass/_foundation.scss */
 .valueprop .valueprop_contents {
   max-width: 1200px;
   width: 90%;
@@ -110,61 +112,61 @@ ul.nav {
   color: #fff;
   text-align: center;
 }
-/* line 89, ../sass/_foundation.scss */
+/* line 91, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol {
   display: inline-block;
   width: 29%;
   margin-right: 5%;
   vertical-align: top;
 }
-/* line 94, ../sass/_foundation.scss */
+/* line 96, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol h2 {
   color: #fff;
 }
-/* line 98, ../sass/_foundation.scss */
+/* line 100, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol.last {
   margin-right: 0px;
 }
 
-/* line 103, ../sass/_foundation.scss */
+/* line 105, ../sass/_foundation.scss */
 .screens {
   padding: 7.5rem 0px;
   background-color: #4dacde;
 }
-/* line 106, ../sass/_foundation.scss */
+/* line 108, ../sass/_foundation.scss */
 .screens .screens_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
-/* line 108, ../sass/_foundation.scss */
+/* line 110, ../sass/_foundation.scss */
 .screens .screens_contents p, .screens .screens_contents h2, .screens .screens_contents h3, .screens .screens_contents h4, .screens .screens_contents span {
   color: #fff;
 }
 
-/* line 113, ../sass/_foundation.scss */
+/* line 115, ../sass/_foundation.scss */
 .signoff {
   padding: 6rem 0rem;
   background-color: #333333;
 }
-/* line 116, ../sass/_foundation.scss */
+/* line 118, ../sass/_foundation.scss */
 .signoff .signoff_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 119, ../sass/_foundation.scss */
+/* line 121, ../sass/_foundation.scss */
 .signoff .signoff_contents p, .signoff .signoff_contents a {
   color: #fff;
 }
 
-/* line 124, ../sass/_foundation.scss */
+/* line 126, ../sass/_foundation.scss */
 .team {
   padding: 60px 0px;
   background-color: #f2f2f2;
 }
-/* line 127, ../sass/_foundation.scss */
+/* line 129, ../sass/_foundation.scss */
 .team .team_contents {
   max-width: 1200px;
   width: 90%;
@@ -172,37 +174,37 @@ ul.nav {
   width: 60%;
   text-align: center;
 }
-/* line 131, ../sass/_foundation.scss */
+/* line 133, ../sass/_foundation.scss */
 .team .team_contents .profile {
   width: 33%;
   display: inline-block;
   vertical-align: top;
   margin-top: 4rem;
 }
-/* line 136, ../sass/_foundation.scss */
+/* line 138, ../sass/_foundation.scss */
 .team .team_contents .profile a {
   font-size: 2rem;
   background-color: #fff;
   border-radius: 50%;
   margin-right: 1rem;
 }
-/* line 142, ../sass/_foundation.scss */
+/* line 144, ../sass/_foundation.scss */
 .team .team_contents .profile a:hover {
   color: #fff;
   background-color: #07557d;
   text-decoration: none;
 }
-/* line 148, ../sass/_foundation.scss */
+/* line 150, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
 
-/* line 153, ../sass/_foundation.scss */
+/* line 155, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 156, ../sass/_foundation.scss */
+/* line 158, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
@@ -355,7 +357,8 @@ input.submitbtn:hover {
 /* line 65, ../sass/_components.scss */
 input.forminput {
   display: inline-block;
-  width: 287px;
+  max-width: 300px;
+  width: 50%;
   color: #333333;
   background-color: rgba(255, 255, 255, 0.75);
   border: none;
@@ -641,28 +644,49 @@ input.forminput {
   }
 }
 @media all and (max-width: 966px) {
-  /* line 29, ../sass/_responsive.scss */
+  /* line 27, ../sass/_responsive.scss */
+  .jumbotron {
+    padding-bottom: 0px;
+  }
+  /* line 30, ../sass/_responsive.scss */
   .jumbotron .jumbotron_contents .jumbowords {
-    width: 50%;
+    width: 60%;
     margin-top: 0rem;
   }
-  /* line 33, ../sass/_responsive.scss */
+  /* line 34, ../sass/_responsive.scss */
   .jumbotron .jumbotron_contents .halfapp {
     width: 29%;
+    margin-right: 2rem;
+    margin-left: 0rem;
+    margin-bottom: 0px;
   }
 }
-@media all and (max-width: 954px) {
-  /* line 41, ../sass/_responsive.scss */
-  .jumbotron {
-    padding-bottom: 2.4rem;
-  }
-  /* line 44, ../sass/_responsive.scss */
-  .jumbotron .jumbotron_contents .jumbowords {
-    width: 67%;
-  }
+@media all and (max-width: 807px) {
   /* line 47, ../sass/_responsive.scss */
+  .jumbotron .jumbotron_contents .jumbowords {
+    width: 66%;
+  }
+}
+@media all and (max-width: 767px) {
+  /* line 57, ../sass/_responsive.scss */
+  .jumbotron .jumbotron_contents .jumbowords {
+    width: 66%;
+  }
+}
+@media all and (max-width: 737px) {
+  /* line 67, ../sass/_responsive.scss */
+  .jumbotron .jumbotron_contents .jumbowords {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 71, ../sass/_responsive.scss */
   .jumbotron .jumbotron_contents .halfapp {
-    margin-left: 0rem;
-    margin-right: 2rem;
+    display: none;
+  }
+}
+@media all and (max-width: 440px) {
+  /* line 80, ../sass/_responsive.scss */
+  input.forminput {
+    width: 75%;
   }
 }

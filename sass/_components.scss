@@ -64,7 +64,8 @@ input.submitbtn:hover {
 }
 input.forminput {
   display:inline-block;
-  width:287px;
+  max-width:300px;
+  width:50%;
   color:$primary-font;
   background-color:transparentize(#fff, .25);
   border: none;
