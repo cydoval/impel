@@ -113,6 +113,9 @@ ul.nav {
 	.signoff_contents {
 		@include contentsection;
 		text-align:center;
+		p,a {
+			color:#fff;
+		}
 	}
 }
 .team {
