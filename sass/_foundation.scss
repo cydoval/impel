@@ -57,13 +57,16 @@ ul.nav {
 			vertical-align:top;
 			margin-bottom:-4.9rem;
 			margin-right:5rem;
-			margin-left:10rem;
+			margin-left:2rem;
 		}
 		.jumbowords {
 			display:inline-block;
-			width:49%;
+			width:56%;
 			vertical-align:top;
 			padding-top:4.6rem;
+			img {
+				float:left;
+			}
 		}
 		h2 {
 			color:#fff;

@@ -1,2 +1,67 @@
 // Responsive
 // Adjustments to type sizes, grids, and images.
+
+
+// jumbotron
+@media all and (max-width: 1164px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+				padding-top:0px;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 1025px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+				margin-top:-4rem;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 966px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+				width:50%;
+				margin-top:0rem;
+			}
+			.halfapp {
+				width:29%;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 954px) {
+	.jumbotron {
+		padding-bottom:2.4rem;
+		.jumbotron_contents {
+			.jumbowords {
+				width:67%;
+			}
+			.halfapp {
+				margin-left:0rem;
+				margin-right:2rem;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 831px) {
+	.jumbotron {
+		.jumbotron_contents {
+			.jumbowords {
+
+			}
+			.halfapp {
+
+			}
+		}
+	}
+	
+}
