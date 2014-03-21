@@ -83,3 +83,28 @@
 	
 }
 
+//value
+@media all and (max-width: 807px) {
+	.valueprop {
+		.valueprop_contents {
+			padding-bottom:7rem;
+			padding-top:7rem;
+		}
+	}
+	
+}
+@media all and (max-width: 666px) {
+	.valueprop {
+		.valueprop_contents {
+			padding-bottom:.5rem;
+			padding-top:1.5rem;
+			.valuecol {
+				width:100%;
+				margin-bottom:2.5rem;
+			}
+		}
+	}
+	
+}
+
+

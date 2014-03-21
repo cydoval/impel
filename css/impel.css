@@ -690,3 +690,22 @@ input.forminput {
     width: 75%;
   }
 }
+@media all and (max-width: 807px) {
+  /* line 89, ../sass/_responsive.scss */
+  .valueprop .valueprop_contents {
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+  }
+}
+@media all and (max-width: 666px) {
+  /* line 98, ../sass/_responsive.scss */
+  .valueprop .valueprop_contents {
+    padding-bottom: .5rem;
+    padding-top: 1.5rem;
+  }
+  /* line 101, ../sass/_responsive.scss */
+  .valueprop .valueprop_contents .valuecol {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}
