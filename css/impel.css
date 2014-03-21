@@ -164,21 +164,26 @@ ul.nav {
   background-color: #fff;
   border-radius: 50%;
 }
-/* line 128, ../sass/_foundation.scss */
+/* line 127, ../sass/_foundation.scss */
+.team .team_contents .profile a:hover {
+  color: #fff;
+  background-color: #07557d;
+}
+/* line 132, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
-/* line 131, ../sass/_foundation.scss */
+/* line 135, ../sass/_foundation.scss */
 .team .team_contents .signoff {
   padding-bottom: 4rem;
 }
 
-/* line 136, ../sass/_foundation.scss */
+/* line 140, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 139, ../sass/_foundation.scss */
+/* line 143, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
@@ -247,7 +252,7 @@ h1, .h1 {
 
 /* line 40, ../sass/_typography.scss */
 a.fa.fa-facebook {
-  padding: 1rem 1.45rem;
+  padding: 1rem 1.55rem;
 }
 
 /* line 43, ../sass/_typography.scss */
