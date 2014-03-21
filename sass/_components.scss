@@ -17,11 +17,17 @@ img {
 }
 // navigation
  // buttons
+
+ .btn {
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
+ }
+
  .btn-primary {
   background-color:$impel-blue;
   background-image:none;
   border:1px solid $impel-blue;
   border-radius:$borderadius;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
  }
  .btn-primary:hover {
   background-color:$impel-d-blue;
@@ -34,6 +40,7 @@ img {
   background-image:none;
   border:1px solid $impel-l-green;
   border-radius:$borderadius;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
  }
  .btn-success:hover {
   background-color:$impel-d-blue;
