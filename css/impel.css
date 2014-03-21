@@ -160,32 +160,45 @@ ul.nav {
 .signoff .signoff_contents p, .signoff .signoff_contents a {
   color: #fff;
 }
+/* line 124, ../sass/_foundation.scss */
+.signoff .signoff_contents p {
+  margin-bottom: 2rem;
+}
+/* line 127, ../sass/_foundation.scss */
+.signoff .signoff_contents a {
+  font-size: 2.5rem;
+}
+/* line 130, ../sass/_foundation.scss */
+.signoff .signoff_contents a:hover {
+  text-decoration: none;
+  color: #a3c737;
+}
 
-/* line 126, ../sass/_foundation.scss */
+/* line 136, ../sass/_foundation.scss */
 .team {
   padding: 60px 0px;
   background-color: #f2f2f2;
 }
-/* line 129, ../sass/_foundation.scss */
+/* line 139, ../sass/_foundation.scss */
 .team .team_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 132, ../sass/_foundation.scss */
+/* line 142, ../sass/_foundation.scss */
 .team .team_contents .teamwords {
   width: 60%;
   margin: 0 auto;
 }
-/* line 136, ../sass/_foundation.scss */
+/* line 146, ../sass/_foundation.scss */
 .team .team_contents .profile {
   width: 32%;
   display: inline-block;
   vertical-align: top;
   margin-top: 4rem;
 }
-/* line 141, ../sass/_foundation.scss */
+/* line 151, ../sass/_foundation.scss */
 .team .team_contents .profile a {
   font-size: 2rem;
   background-color: #fff;
@@ -193,23 +206,23 @@ ul.nav {
   margin-right: 1rem;
   margin-top: .5rem;
 }
-/* line 148, ../sass/_foundation.scss */
+/* line 158, ../sass/_foundation.scss */
 .team .team_contents .profile a:hover {
   color: #fff;
   background-color: #07557d;
   text-decoration: none;
 }
-/* line 154, ../sass/_foundation.scss */
+/* line 164, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
 
-/* line 159, ../sass/_foundation.scss */
+/* line 169, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 162, ../sass/_foundation.scss */
+/* line 172, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
