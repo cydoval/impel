@@ -75,6 +75,13 @@
 	}
 	
 }
+@media all and (max-width: 666px) {
+	.jumbotron {
+		background-image:none;
+		background-color:#333;
+	}
+	
+}
 //form
 @media all and (max-width: 440px) {
 	input.forminput {
@@ -107,4 +114,25 @@
 	
 }
 
-
+// team
+@media all and (max-width: 800px) {
+	.team {
+		.team_contents {
+			.teamwords {
+				width:100%;
+			}
+		}
+	}
+	
+}
+@media all and (max-width: 666px) {
+	.team {
+		.team_contents {
+			.profile {
+				width:100%;
+				margin-bottom:2.5rem;
+			}
+		}
+	}
+	
+}
