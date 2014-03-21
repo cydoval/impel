@@ -33,7 +33,19 @@ ul.nav {
   float: right;
 }
 
-/* line 29, ../sass/_foundation.scss */
+/* line 30, ../sass/_foundation.scss */
+.navbar-inverse {
+  color: #7e7a7a;
+  border-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* line 36, ../sass/_foundation.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #4dacde;
+}
+
+/* line 39, ../sass/_foundation.scss */
 .jumbotron {
   height: auto;
   background-image: url(../media/header_background.jpg);
@@ -46,7 +58,7 @@ ul.nav {
   background-size: cover;
   margin-bottom: 0px;
 }
-/* line 40, ../sass/_foundation.scss */
+/* line 50, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents {
   max-width: 1200px;
   width: 90%;
@@ -54,7 +66,7 @@ ul.nav {
   color: #fff;
   padding-top: 15rem;
 }
-/* line 44, ../sass/_foundation.scss */
+/* line 54, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .halfapp {
   display: inline-block;
   width: 25%;
@@ -63,14 +75,14 @@ ul.nav {
   margin-right: 5rem;
   margin-left: 10rem;
 }
-/* line 52, ../sass/_foundation.scss */
+/* line 62, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents .jumbowords {
   display: inline-block;
   width: 49%;
   vertical-align: top;
   padding-top: 4.6rem;
 }
-/* line 58, ../sass/_foundation.scss */
+/* line 68, ../sass/_foundation.scss */
 .jumbotron .jumbotron_contents h2 {
   color: #fff;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
@@ -80,11 +92,11 @@ ul.nav {
   margin-bottom: 1.3rem;
 }
 
-/* line 68, ../sass/_foundation.scss */
+/* line 78, ../sass/_foundation.scss */
 .valueprop {
   background-color: #07557d;
 }
-/* line 70, ../sass/_foundation.scss */
+/* line 80, ../sass/_foundation.scss */
 .valueprop .valueprop_contents {
   max-width: 1200px;
   width: 90%;
@@ -94,44 +106,44 @@ ul.nav {
   color: #fff;
   text-align: center;
 }
-/* line 76, ../sass/_foundation.scss */
+/* line 86, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol {
   display: inline-block;
   width: 29%;
   margin-right: 5%;
   vertical-align: top;
 }
-/* line 81, ../sass/_foundation.scss */
+/* line 91, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol h2 {
   color: #fff;
 }
-/* line 85, ../sass/_foundation.scss */
+/* line 95, ../sass/_foundation.scss */
 .valueprop .valueprop_contents .valuecol.last {
   margin-right: 0px;
 }
 
-/* line 90, ../sass/_foundation.scss */
+/* line 100, ../sass/_foundation.scss */
 .screens {
   padding: 7.5rem 0px;
   background-color: #4dacde;
 }
-/* line 93, ../sass/_foundation.scss */
+/* line 103, ../sass/_foundation.scss */
 .screens .screens_contents {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
-/* line 95, ../sass/_foundation.scss */
+/* line 105, ../sass/_foundation.scss */
 .screens .screens_contents p, .screens .screens_contents h2, .screens .screens_contents h3, .screens .screens_contents h4, .screens .screens_contents span {
   color: #fff;
 }
 
-/* line 100, ../sass/_foundation.scss */
+/* line 110, ../sass/_foundation.scss */
 .team {
   padding: 60px 0px;
   background-color: #f2f2f2;
 }
-/* line 103, ../sass/_foundation.scss */
+/* line 113, ../sass/_foundation.scss */
 .team .team_contents {
   max-width: 1200px;
   width: 90%;
@@ -139,13 +151,13 @@ ul.nav {
   width: 60%;
   text-align: center;
 }
-/* line 107, ../sass/_foundation.scss */
+/* line 117, ../sass/_foundation.scss */
 .team .team_contents .profile {
   width: 33%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 112, ../sass/_foundation.scss */
+/* line 122, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
@@ -215,24 +227,12 @@ img {
   max-width: 100%;
 }
 
-/* line 9, ../sass/_components.scss */
-.navbar-inverse {
-  background-color: #fff;
-  color: #7e7a7a;
-  border-bottom: 0px;
-}
-
-/* line 15, ../sass/_components.scss */
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #4dacde;
-}
-
-/* line 21, ../sass/_components.scss */
+/* line 13, ../sass/_components.scss */
 .btn {
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 25, ../sass/_components.scss */
+/* line 17, ../sass/_components.scss */
 .btn-primary {
   background-color: #4dacde;
   background-image: none;
@@ -241,7 +241,7 @@ img {
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 32, ../sass/_components.scss */
+/* line 24, ../sass/_components.scss */
 .btn-primary:hover {
   background-color: #07557d;
   background-image: none;
@@ -249,7 +249,7 @@ img {
   border-radius: 5px;
 }
 
-/* line 38, ../sass/_components.scss */
+/* line 30, ../sass/_components.scss */
 .btn-success {
   background-color: #a3c737;
   background-image: none;
@@ -258,7 +258,7 @@ img {
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 45, ../sass/_components.scss */
+/* line 37, ../sass/_components.scss */
 .btn-success:hover {
   background-color: #07557d;
   background-image: none;
@@ -266,7 +266,7 @@ img {
   border-radius: 5px;
 }
 
-/* line 53, ../sass/_components.scss */
+/* line 45, ../sass/_components.scss */
 input.submitbtn {
   display: inline-block;
   width: 110px;
@@ -285,12 +285,12 @@ input.submitbtn {
   border-radius: 5px;
 }
 
-/* line 70, ../sass/_components.scss */
+/* line 62, ../sass/_components.scss */
 input.submitbtn:hover {
   background-color: #07557d;
 }
 
-/* line 73, ../sass/_components.scss */
+/* line 65, ../sass/_components.scss */
 input.forminput {
   display: inline-block;
   width: 287px;
