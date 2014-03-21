@@ -182,29 +182,30 @@ h1, .h1, h2, .h2, h3, .h3 {
 p {
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
   line-height: 1.625;
+  letter-spacing: .025rem;
 }
 
-/* line 24, ../sass/_typography.scss */
+/* line 25, ../sass/_typography.scss */
 h1, .h1 {
   font-size: 2.25rem;
 }
 
-/* line 27, ../sass/_typography.scss */
+/* line 28, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.blue {
   color: #4dacde;
 }
 
-/* line 30, ../sass/_typography.scss */
+/* line 31, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.blue:hover {
   color: #07557d;
 }
 
-/* line 33, ../sass/_typography.scss */
+/* line 34, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.green {
   color: #a3c737;
 }
 
-/* line 36, ../sass/_typography.scss */
+/* line 37, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.green:hover {
   color: #07557d;
 }
@@ -273,9 +274,9 @@ input.submitbtn {
   border: none;
   color: #fff;
   font-style: normal;
-  padding: 7px 12px;
-  margin-bottom: 15px;
-  letter-spacing: .75px;
+  padding: .8rem 1.2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.075rem;
   text-align: center;
   border-radius: 5px;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
