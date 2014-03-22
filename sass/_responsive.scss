@@ -136,3 +136,16 @@
 	}
 	
 }
+// nav
+
+@media all and (max-width: 768px) {
+.navbar {
+	.navbar_contents {
+		@include contentsection;
+		a.navbar-brand {
+			width:60%;
+		}
+	}
+}
+	
+}
