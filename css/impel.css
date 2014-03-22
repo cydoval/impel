@@ -441,6 +441,55 @@ input.forminput {
   font-weight: 400;
 }
 
+/* line 9, ../sass/_regions.scss */
+body.otherpage .jumbotron {
+  background-image: none;
+  background-color: #4dacde;
+}
+/* line 12, ../sass/_regions.scss */
+body.otherpage .jumbotron .jumbotron_contents {
+  padding-top: 10rem;
+}
+
+/* line 17, ../sass/_regions.scss */
+.maincontent {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+/* line 20, ../sass/_regions.scss */
+.maincontent .maincontent_sections {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 23, ../sass/_regions.scss */
+.maincontent .maincontent_sections h2 {
+  font-weight: 400;
+  font-family: "lexia", georgia, serif;
+}
+/* line 27, ../sass/_regions.scss */
+.maincontent .maincontent_sections p {
+  color: #7e7a7a;
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 18px;
+}
+/* line 34, ../sass/_regions.scss */
+.maincontent .maincontent_sections a {
+  color: #ab2f18;
+  font-size: 18px;
+}
+/* line 38, ../sass/_regions.scss */
+.maincontent .maincontent_sections a:hover {
+  color: #851f0c;
+}
+/* line 43, ../sass/_regions.scss */
+.maincontent .verify {
+  text-align: center;
+}
+
 /* General Demo Style */
 /* line 7, ../sass/_showcase.scss */
 .ac-wrapper {
