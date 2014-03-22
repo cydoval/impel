@@ -101,12 +101,16 @@
   -moz-transform: translateZ(-350px);
   transform: translateZ(-350px);
   a {
-  	  	width: 145px;
+  	  width: 17.5rem;
   		display: block;
   		position: relative;
   		float: left;
-  		margin: 10px 5px;
   		cursor: pointer;
+      margin:10px;
+      margin-right:3.2rem;
+  }
+  a.last_showcase {
+    margin-right:0px;
   }
   a img {
   		display: block;
