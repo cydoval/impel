@@ -171,7 +171,7 @@ ul.nav {
 /* line 130, ../sass/_foundation.scss */
 .signoff .signoff_contents a:hover {
   text-decoration: none;
-  color: #a3c737;
+  color: #851f0c;
 }
 
 /* line 136, ../sass/_foundation.scss */
@@ -199,6 +199,15 @@ ul.nav {
   margin-top: 4rem;
 }
 /* line 151, ../sass/_foundation.scss */
+.team .team_contents .profile p {
+  color: #5c5b5a;
+}
+/* line 154, ../sass/_foundation.scss */
+.team .team_contents .profile p b {
+  color: #333333;
+  font-family: "lexia", georgia, serif;
+}
+/* line 158, ../sass/_foundation.scss */
 .team .team_contents .profile a {
   font-size: 2rem;
   background-color: #fff;
@@ -206,23 +215,23 @@ ul.nav {
   margin-right: 1rem;
   margin-top: .5rem;
 }
-/* line 158, ../sass/_foundation.scss */
+/* line 165, ../sass/_foundation.scss */
 .team .team_contents .profile a:hover {
   color: #fff;
   background-color: #07557d;
   text-decoration: none;
 }
-/* line 164, ../sass/_foundation.scss */
+/* line 171, ../sass/_foundation.scss */
 .team .team_contents img {
   border-radius: 50%;
 }
 
-/* line 169, ../sass/_foundation.scss */
+/* line 176, ../sass/_foundation.scss */
 .footer {
   padding: 10px 0px;
   background-color: #333333;
 }
-/* line 172, ../sass/_foundation.scss */
+/* line 179, ../sass/_foundation.scss */
 .footer .footer_contents {
   max-width: 1200px;
   width: 90%;
@@ -297,7 +306,7 @@ p {
 
 /* line 44, ../sass/_typography.scss */
 .navbar-inverse .navbar-nav > li > a.green {
-  color: #a3c737;
+  color: #851f0c;
 }
 
 /* line 47, ../sass/_typography.scss */
@@ -322,7 +331,7 @@ a.fa-linkedin {
 
 /* line 59, ../sass/_typography.scss */
 b, strong {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 /* line 5, ../sass/_components.scss */
@@ -354,9 +363,9 @@ img {
 
 /* line 30, ../sass/_components.scss */
 .btn-success {
-  background-color: #a3c737;
+  background-color: #851f0c;
   background-image: none;
-  border: 1px solid #a3c737;
+  border: 1px solid #851f0c;
   border-radius: 5px;
   box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
 }
@@ -373,7 +382,7 @@ img {
 input.submitbtn {
   display: inline-block;
   width: 110px;
-  background-color: #a3c737;
+  background-color: #851f0c;
   border: none;
   color: #fff;
   font-style: normal;

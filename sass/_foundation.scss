@@ -148,6 +148,13 @@ ul.nav {
 			display:inline-block;
 			vertical-align:top;
 			margin-top:4rem;
+			p {
+				color:$secondary-font;
+			}
+			p b {
+				color:$primary-font;
+				font-family:$primary-serif;
+			}
 			a {
 				font-size:2rem;
 				background-color:#fff;
