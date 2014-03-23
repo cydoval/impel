@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* apply a natural box layout model to all elements */
 /* line 2, ../sass/_border-box-sizing.scss */
 *, *:before, *:after {
@@ -865,4 +866,68 @@ body.otherpage .jumbotron .jumbotron_contents {
   .navbar .navbar_contents a.navbar-brand {
     width: 60%;
   }
+}
+/*
+
+Copyright © David Bushell | @dbushell | http://dbushell.com/
+
+*/
+/* line 33, ../sass/impel.scss */
+.field {
+  position: relative;
+  padding-bottom: 1.875em;
+  margin-bottom: 1.875em;
+  max-width: 20em;
+}
+
+/* line 40, ../sass/impel.scss */
+.field__label {
+  display: block;
+  position: absolute;
+  top: 1.25em;
+  font-size: 0.75em;
+  line-height: 1.25em;
+  font-weight: bold;
+  color: #2996cc;
+}
+
+/* line 50, ../sass/impel.scss */
+.field__input {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 0.3125em 0;
+  height: 1.875em;
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: 0.125em solid #bbbbbb;
+}
+/* line 63, ../sass/impel.scss */
+.field__input:valid {
+  position: relative;
+  top: 1.875em;
+  margin-top: -1.875em;
+}
+/* line 69, ../sass/impel.scss */
+.field__input:focus {
+  border-bottom-color: #2996cc;
+}
+
+/* line 77, ../sass/impel.scss */
+body {
+  padding: 1.875em;
+}
+
+/* line 81, ../sass/impel.scss */
+hr {
+  display: block;
+  clear: both;
+  margin: 1.875em 0;
+  border: 0;
+  outline: 0;
+  height: 2px;
+  background: #ddd;
 }

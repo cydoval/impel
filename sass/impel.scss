@@ -18,3 +18,72 @@
 // For the starter template. You can remove the below from any real proj 
 //
 // -----------------------------------------------------------------
+/*
+
+Copyright © David Bushell | @dbushell | http://dbushell.com/
+
+*/
+
+@function em($px, $base: 16) {
+    @return ($px / $base) + em;
+}
+
+// field
+
+.field {
+  position: relative;
+  padding-bottom: em(30);
+  margin-bottom: em(30);
+  max-width: em(320);
+}
+
+.field__label {
+  display: block;
+  position: absolute;
+  top: em(15, 12);
+  font-size: em(12);
+  line-height: em(15, 12);
+  font-weight: bold;
+  color: #2996cc;
+}
+
+.field__input {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  font-size: em(16);
+  line-height: em(20);
+  padding: em(5) 0;
+  height: em(30);
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: em(2) solid #bbb;
+  
+  &:valid {
+    position: relative;
+    top: em(30);
+    margin-top: em(-30);
+  }
+
+  &:focus {
+    border-bottom-color: #2996cc;
+  }
+}
+
+// house keeping
+
+
+body {
+  padding: em(30);
+}
+
+hr {
+  display: block;
+  clear: both;
+  margin: em(30) 0;
+  border: 0;
+  outline: 0;
+  height: 2px;
+  background: #ddd;
+}
