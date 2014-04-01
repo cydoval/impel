@@ -356,6 +356,17 @@ b, strong {
   font-weight: 500;
 }
 
+/* line 62, ../sass/_typography.scss */
+a.easter {
+  color: #999999;
+}
+
+/* line 65, ../sass/_typography.scss */
+a.easter:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
 /* line 5, ../sass/_components.scss */
 img {
   max-width: 100%;
