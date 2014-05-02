@@ -187,10 +187,41 @@ ul.nav {
 		}
 	}
 }
-.footer {
-	padding:10px 0px;
-	background-color:$primary-font;
+footer {
+	background-color:$background-color;
+	padding:17px 0px 17px 0px;
 	.footer_contents {
 		@include contentsection;
+		font-size:10px;
+		.foot{
+		display:inline-block;
+		color:$tertiary-font;
+		width:33%;
+		vertical-align:top;
+		}
+		a {
+			color:$tertiary-font;
+			padding:0px 0px 0px 5px;
+			font-size:14px;
+		}
+		a:hover {
+			color:$impel-d-blue;
+			text-decoration:none;
+		}
+		.foot.left {
+			padding-top:8px;
+		}
+		.foot.center {
+			background-image:url(/media/footlogo.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+			padding-top:10px;
+			padding-bottom:20px;
+		}
+		.foot.right {
+			text-align:right;
+			padding-top:8px;
+			font-size:16px;
+		}
 	}
 }

@@ -10,10 +10,22 @@ img {
 // navigation
  // buttons
 
- .btn {
-    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1) inset;
- }
-
+button.btn {
+  box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+   color: #FFFFFF;
+   border:none;
+   border-radius:3px;
+   font-size:1.4rem;
+   text-transform:uppercase;
+   font-family:$primary-sans;
+   padding:1rem 2rem 1rem 2rem;
+   &:hover {
+    color:#fff;
+   }
+}
+.btn-small-nav {
+  margin-top:-1.1rem;
+}
  .btn-primary {
   background-color:$impel-blue;
   background-image:none;
@@ -40,6 +52,13 @@ img {
   border:1px solid $impel-d-blue;
   border-radius:$borderadius;
  }
+
+.btn-download {
+  background-color:$lukes-hover;
+}
+.btn-download:hover {
+  background-color:lighten($lukes-hover, 5);
+}
 
 // mailchimp sign up
 input.submitbtn {
