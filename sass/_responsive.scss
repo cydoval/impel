@@ -79,6 +79,12 @@
 	.jumbotron {
 		background-image:none;
 		background-color:#333;
+		.jumbotron_contents {
+			padding:4.4rem 0px;
+		}
+	}
+	footer .footer_contents .foot {
+		width:100%;
 	}
 	
 }
