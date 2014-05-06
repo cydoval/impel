@@ -264,7 +264,7 @@ footer .footer_contents {
 footer .footer_contents .foot {
   display: inline-block;
   color: #7e7a7a;
-  width: 33%;
+  width: 100%;
   vertical-align: top;
 }
 /* line 202, ../sass/_foundation.scss */
